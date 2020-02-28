@@ -1,5 +1,6 @@
 {
  "metas": [{
+  "id": 1,
  	"type": "measurer",
  	"title": "Metas de Velocidade",
  	"subtitle": "Metas de velocidade descrição",
@@ -53,6 +54,7 @@
  		]
  	}
  }, {
+  "id": 2,
  	"type": "table",
  	"title": "Metas de Tabela",
  	"subtitle": "Metas de Tabela descrição",
@@ -104,6 +106,103 @@
  				}
  			}
  		]
+ 	}
+ }],
+ "result" :   [{
+ 	"id": 1,
+ 	"type": "measurer",
+ 	"title": "Metas de Velocidade",
+ 	"subtitle": "Metas de velocidade descrição",
+ 	"infos": {
+ 		"data": [{
+ 				"title": "Meta Cliente",
+ 				"subtitle": "Descrição meta cliente",
+ 				"format": "",
+ 				"min": 0,
+ 				"max": 100,
+ 				"value": 70
+ 			},
+ 			{
+ 				"title": "Meta Cliente",
+ 				"subtitle": "Descrição meta cliente",
+ 				"format": "",
+ 				"min": 0,
+ 				"max": 100,
+ 				"value": 70
+ 			},
+ 			{
+ 				"title": "Meta Cliente",
+ 				"subtitle": "Descrição meta cliente",
+ 				"format": "",
+ 				"min": 0,
+ 				"max": 100,
+ 				"value": 70
+ 			},
+ 			{
+ 				"title": "Meta Cliente",
+ 				"subtitle": "Descrição meta cliente",
+ 				"format": "",
+ 				"min": 0,
+ 				"max": 100,
+ 				"value": 70
+ 			},
+ 			{
+ 				"title": "Meta Cliente",
+ 				"subtitle": "Descrição meta cliente",
+ 				"format": "",
+ 				"min": 0,
+ 				"max": 100,
+ 				"value": 70
+ 			}
+ 		],
+ 		"filters": []
+ 	}
+ }, {
+ 	"id": 2,
+ 	"type": "table",
+ 	"title": "Metas de Tabela",
+ 	"subtitle": "Metas de Tabela descrição",
+ 	"infos": {
+ 		"data": [{
+ 			"title": "Tabela",
+ 			"subtitle": "",
+ 			"datasource": [{
+ 				"name": "Nome 1",
+ 				"name1": "Nome 1",
+ 				"name2": "Nome 1",
+ 				"name3": "Nome 1",
+ 				"name4": "Nome 1",
+ 				"name5": "Nome 1",
+ 				"name6": "Nome 1",
+ 				"name7": "Nome 1"
+ 			}],
+ 			"columns": [{
+ 				"title": "Nome",
+ 				"key": "name"
+ 			}, {
+ 				"title": "Nome",
+ 				"key": "name1"
+ 			}, {
+ 				"title": "Nome",
+ 				"key": "name2"
+ 			}, {
+ 				"title": "Nome",
+ 				"key": "name3"
+ 			}, {
+ 				"title": "Nome",
+ 				"key": "name4"
+ 			}, {
+ 				"title": "Nome",
+ 				"key": "name5"
+ 			}, {
+ 				"title": "Nome",
+ 				"key": "name6"
+ 			}, {
+ 				"title": "Nome",
+ 				"key": "name7"
+ 			}]
+ 		}],
+ 		"filters": []
  	}
  }]
 }
